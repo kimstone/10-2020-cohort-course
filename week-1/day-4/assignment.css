@@ -1,0 +1,106 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+.trifold {
+    width: 1000px;
+    border-collapse: collapse;
+    border: 0px solid gray;
+    color: #444;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.trifold td,
+.trifold tr {
+    padding: 0px;
+}
+
+.col1, .col3, .col5 {
+    width: 32%;
+    background-color: #FFF;
+}
+
+.col2, .col4 {
+    width: 1.5%;
+    background-color: #000;
+}
+
+div.center {
+    margin: auto;
+}
+
+.c-one, .c-two, .c-three {
+    padding: 15px;
+}
+
+img.fit {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img.fit-vit {
+    max-width: 45%;
+    max-height: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.u { text-decoration: underline; }
+.c { text-align: center;}
+
+.c-one {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.c-two {
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+
+.c-three {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.display-1 {
+    font-size: 40px;
+    line-height: 54px;
+}
+
+.display-2 {
+    font-size: 36px;
+    padding: 15px 3px;
+    font-weight: 600;
+}
+
+.display-3 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.col1 {
+}
+
+.col3 {
+}
+
+.col5 {
+}
