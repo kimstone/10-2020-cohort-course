@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./js/slider.js"></script>
+    <title>Week #2 - JS Carousel - Assignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/assignment.css" />
+</head>
+<!-- BRETT:  script on bottom so html runs first -->
+<!-- assignment due noon on monday -->
+<!-- Must have css and javascript versions of the carousel. -->
+<!-- 
+    Carousel -- be aware of what space with buttons 
+    https://www.w3schools.com/tags/att_script_src.asp
+-->
+<body onload="showCurrentPositionValue()">
+    <div>
+        <h2>Animated Carousel</h2>
+    </div>
+    <div id="window">
+        <div id="imageSlider">
+            <img class="css-slider-img" src="./img/groot.jpg" alt="groot">
+            <img class="css-slider-img" src="./img/hulk.jpg" alt="hulk">
+            <img class="css-slider-img" src="./img/spider-man.jpg" alt="spider-man">
+            <img class="css-slider-img" src="./img/batman.jpg" alt="batman">
+            <img class="css-slider-img" src="./img/captain-america.jpg" alt="captain-america">
+            <img class="css-slider-img" src="./img/iron-man.jpg" alt="iron-man">
+            <img class="css-slider-img" src="./img/wonder-woman.jpg" alt="wonder-woman">
+        </div>
+    </div>
+
+    <div>
+        <h2>JavaScript Carousel</h2>
+    </div>
+    <div id="windowJS">
+        <div id="imageSliderJS">
+            <img class="js-slider-img" src="./img/groot.jpg" alt="groot">
+            <img class="js-slider-img" src="./img/hulk.jpg" alt="hulk">
+            <img class="js-slider-img" src="./img/spider-man.jpg" alt="spider-man">
+            <img class="js-slider-img" src="./img/batman.jpg" alt="batman">
+            <img class="js-slider-img" src="./img/captain-america.jpg" alt="captain-america">
+            <img class="js-slider-img" src="./img/iron-man.jpg" alt="iron-man">
+            <img class="js-slider-img" src="./img/wonder-woman.jpg" alt="wonder-woman">
+        </div>
+    </div>
+    <!-- button that uses event handler -->
+    <div class="js-slider-btn">
+        <button onclick="prevImage()">Prev</button>
+        <button onclick="nextImage()">Next</button>
+
+        <!-- TROUBLESHOOTING; displays currPosition Value to screen --> 
+        <!--
+        <br /><br />
+        The value for currentPosition is: "<span id="currPosValue"></span>"
+        -->
+    </div>
+
+</body>
+</html>

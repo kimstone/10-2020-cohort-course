@@ -29,6 +29,11 @@ https://b.socrative.com/login/student/?feature=embed
 - [inline vs inline block](https://www.w3schools.com/css/css_inline-block.asp)
 - [example of inline vs inline-block vs block](https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_span1)
 
+
+## Added By Kim Stone
+- [CSS Slidy](http://thenewcode.com/871/CSS-Slidy-20-Captions--more)
+
+
 ### Learning Objectives
 - animation 
 - keyframes

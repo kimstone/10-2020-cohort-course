@@ -1,0 +1,53 @@
+.css-slider-img {
+    width: 500px;
+    height: 500px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*
+    The animation code
+    ref: https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
+    ref: http://thenewcode.com/495/Make-A-CSS-Animated-Image-Slider
+ */
+@keyframes css-slider {
+    from {transform: translateX(0px);}
+    to {transform: translateX(-3000px);}
+}
+
+/* The element to apply the animation to */
+#imageSlider {
+    animation-name: css-slider;
+    display: flex;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+
+#window {
+    width: 500px;
+    height: 500px; 
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+/* JAVASCRIPT VERSION */
+.js-slider-img {
+    width: 300px; height: 300px; /* ensures all images are the same size */
+}
+
+#windowJS {
+    width: 300px; height: 300px; /* resizes window IAW size of images */
+    overflow: hidden; /* hides everything thot is outside window size */
+    margin: 0 auto;   /* centers window */
+}
+
+#imageSliderJS {
+    display: flex;    /* stacks horizontally */
+}
+
+.js-slider-btn {
+    padding: 12px;
+    text-align: center; 
+}
